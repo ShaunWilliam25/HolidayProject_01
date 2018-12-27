@@ -24,9 +24,11 @@
 /wd4838
 /we4668
 /I .
-/I D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Inc\HolidayProject_01
-/I D:\Repositories\HolidayProject_01\HolidayProject_01\Source
-/I D:\Repositories\HolidayProject_01\HolidayProject_01\Source\HolidayProject_01
+/I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D
+/I ..\Plugins\2D\Paper2D\Source
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
+/I ..\Plugins\2D\Paper2D\Source\Paper2D
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -415,6 +417,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Inc\HolidayProject_01
+/I D:\Repositories\HolidayProject_01\HolidayProject_01\Source
+/I D:\Repositories\HolidayProject_01\HolidayProject_01\Source\HolidayProject_01
 /I "E:\Microsoft Visual Studio\Visual Studio\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "E:\Windows Kits\10\include\10.0.17763.0\ucrt"
