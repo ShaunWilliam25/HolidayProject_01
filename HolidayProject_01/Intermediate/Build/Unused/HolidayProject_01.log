@@ -1,0 +1,20 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Repositories\HolidayProject_01).
+  Creating makefile for hot reloading HolidayProject_01Editor (source directory changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.16.27023 toolchain (E:\Microsoft Visual Studio\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (E:\Windows Kits\10).
+  Parsing headers for HolidayProject_01Editor
+    Running UnrealHeaderTool "D:\Repositories\HolidayProject_01\HolidayProject_01\HolidayProject_01.uproject" "D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\HolidayProject_01Editor\Development\HolidayProject_01Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HolidayProject_01Editor in 10.8710303 seconds
+  Building 8 actions with 8 processes...
+    [1/8] AMyPlayerCameraManager.cpp
+    [2/8] AMyPlayerController.cpp
+    [3/8] AMyCameraActor.cpp
+    [4/8] AMyPlayerController.gen.cpp
+    [5/8] AMyCameraActor.gen.cpp
+    [6/8] AMyPlayerCameraManager.gen.cpp
+    [7/8] UE4Editor-HolidayProject_01-4624.lib
+       Creating library D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_01\UE4Editor-HolidayProject_01-4624.lib and object D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_01\UE4Editor-HolidayProject_01-4624.exp
+    [8/8] UE4Editor-HolidayProject_01-4624.dll
+       Creating library D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_01\UE4Editor-HolidayProject_01-4624.suppressed.lib and object D:\Repositories\HolidayProject_01\HolidayProject_01\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_01\UE4Editor-HolidayProject_01-4624.suppressed.exp
+  Deploying HolidayProject_01Editor Win64 Development...
+  Total build time: 69.69 seconds (Parallel executor: 3.31 seconds)
