@@ -4,9 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-#include "GameFramework/Actor.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
 #include "PaperCharacter.h"
-#include "Runtime/Engine/Classes/Camera/CameraComponent.h"
+#include "GameFramework/Actor.h"
+#include "Bullet.h"
 #include "AMyPlayerController.generated.h"
 
 /**
@@ -19,6 +20,9 @@ class HOLIDAYPROJECT_01_API AAMyPlayerController : public APlayerController
 	
 public:
 	AAMyPlayerController();
-	UFUNCTION(BlueprintCallable, Category = "CameraMovement")
-	void MoveCamera();
+	UFUNCTION(BlueprintCallable,Category = "ShootBullet")
+	void ShootBullet();
+private:
+	UPROPERTY(EditAnywhere, Category = "ShootBullet")
+	TSubclassOf<class ABullet> Bullet;
 };

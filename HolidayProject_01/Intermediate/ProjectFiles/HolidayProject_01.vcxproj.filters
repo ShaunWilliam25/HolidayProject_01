@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HolidayProject_01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{552987C9-F5BC-4CA2-B44E-D995B5054E34}</UniqueIdentifier>
+      <UniqueIdentifier>{F56E6A98-D393-433A-B953-F22D6E6B3255}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HolidayProject_01.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7A259A1E-9454-4439-92A6-DDE49F1CD414}</UniqueIdentifier>
+      <UniqueIdentifier>{4ABA9A51-08D9-48C1-9FC8-DFE58292C680}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HolidayProject_01">
-      <UniqueIdentifier>{AE3C0733-A885-41D8-A395-73B229E25526}</UniqueIdentifier>
+      <UniqueIdentifier>{3CB1783B-849B-40FD-9616-99D2112F1A6C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HolidayProject_01\ACharacter.cpp">
       <Filter>Source\HolidayProject_01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HolidayProject_01\ACharacter.h">
+      <Filter>Source\HolidayProject_01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HolidayProject_01\AMyCameraActor.cpp">
+      <Filter>Source\HolidayProject_01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_01\AMyCameraActor.h">
       <Filter>Source\HolidayProject_01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HolidayProject_01\AMyPlayerCameraManager.cpp">
@@ -45,6 +51,12 @@
       <Filter>Source\HolidayProject_01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HolidayProject_01\AMyPlayerController.h">
+      <Filter>Source\HolidayProject_01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HolidayProject_01\Bullet.cpp">
+      <Filter>Source\HolidayProject_01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_01\Bullet.h">
       <Filter>Source\HolidayProject_01</Filter>
     </ClInclude>
     <None Include="..\..\Source\HolidayProject_01\HolidayProject_01.Build.cs">
@@ -62,15 +74,5 @@
     <ClInclude Include="..\..\Source\HolidayProject_01\HolidayProject_01GameModeBase.h">
       <Filter>Source\HolidayProject_01</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HolidayProject_01\AMyCameraActor.h">
-      <Filter>Source\HolidayProject_01</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HolidayProject_01\AMyCameraActor.cpp">
-      <Filter>Source\HolidayProject_01</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

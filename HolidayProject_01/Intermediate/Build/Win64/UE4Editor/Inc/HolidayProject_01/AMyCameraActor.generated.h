@@ -86,7 +86,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAMyCameraActor); \
 	FORCEINLINE static uint32 __PPO__LeftBorderLimit() { return STRUCT_OFFSET(AAMyCameraActor, LeftBorderLimit); } \
 	FORCEINLINE static uint32 __PPO__TopBorderLimit() { return STRUCT_OFFSET(AAMyCameraActor, TopBorderLimit); } \
 	FORCEINLINE static uint32 __PPO__BottomBorderLimit() { return STRUCT_OFFSET(AAMyCameraActor, BottomBorderLimit); } \
-	FORCEINLINE static uint32 __PPO__RightBorderLimit() { return STRUCT_OFFSET(AAMyCameraActor, RightBorderLimit); }
+	FORCEINLINE static uint32 __PPO__RightBorderLimit() { return STRUCT_OFFSET(AAMyCameraActor, RightBorderLimit); } \
+	FORCEINLINE static uint32 __PPO__CameraDelay() { return STRUCT_OFFSET(AAMyCameraActor, CameraDelay); }
 
 
 #define HolidayProject_01_Source_HolidayProject_01_AMyCameraActor_h_13_PROLOG

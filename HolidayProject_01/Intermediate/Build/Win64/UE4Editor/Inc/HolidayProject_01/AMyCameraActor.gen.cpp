@@ -73,6 +73,10 @@ void EmptyLinkFunctionForGeneratedCodeAMyCameraActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraDelay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CameraDelay;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RightBorderLimit_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RightBorderLimit;
@@ -108,34 +112,42 @@ void EmptyLinkFunctionForGeneratedCodeAMyCameraActor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_CameraDelay_MetaData[] = {
+		{ "Category", "CameraMovement" },
+		{ "ModuleRelativePath", "AMyCameraActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_CameraDelay = { UE4CodeGen_Private::EPropertyClass::Float, "CameraDelay", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAMyCameraActor, CameraDelay), METADATA_PARAMS(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_CameraDelay_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_CameraDelay_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_RightBorderLimit_MetaData[] = {
-		{ "Category", "CameraLimit" },
+		{ "Category", "CameraMovement" },
 		{ "ModuleRelativePath", "AMyCameraActor.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_RightBorderLimit = { UE4CodeGen_Private::EPropertyClass::Float, "RightBorderLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAMyCameraActor, RightBorderLimit), METADATA_PARAMS(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_RightBorderLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_RightBorderLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_BottomBorderLimit_MetaData[] = {
-		{ "Category", "CameraLimit" },
+		{ "Category", "CameraMovement" },
 		{ "ModuleRelativePath", "AMyCameraActor.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_BottomBorderLimit = { UE4CodeGen_Private::EPropertyClass::Float, "BottomBorderLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAMyCameraActor, BottomBorderLimit), METADATA_PARAMS(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_BottomBorderLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_BottomBorderLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_TopBorderLimit_MetaData[] = {
-		{ "Category", "CameraLimit" },
+		{ "Category", "CameraMovement" },
 		{ "ModuleRelativePath", "AMyCameraActor.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_TopBorderLimit = { UE4CodeGen_Private::EPropertyClass::Float, "TopBorderLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAMyCameraActor, TopBorderLimit), METADATA_PARAMS(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_TopBorderLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_TopBorderLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_LeftBorderLimit_MetaData[] = {
-		{ "Category", "CameraLimit" },
+		{ "Category", "CameraMovement" },
 		{ "ModuleRelativePath", "AMyCameraActor.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_LeftBorderLimit = { UE4CodeGen_Private::EPropertyClass::Float, "LeftBorderLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AAMyCameraActor, LeftBorderLimit), METADATA_PARAMS(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_LeftBorderLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_LeftBorderLimit_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAMyCameraActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_CameraDelay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_RightBorderLimit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_BottomBorderLimit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAMyCameraActor_Statics::NewProp_TopBorderLimit,
@@ -164,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeAMyCameraActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAMyCameraActor, 2183300569);
+	IMPLEMENT_CLASS(AAMyCameraActor, 1270914872);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAMyCameraActor(Z_Construct_UClass_AAMyCameraActor, &AAMyCameraActor::StaticClass, TEXT("/Script/HolidayProject_01"), TEXT("AAMyCameraActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAMyCameraActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

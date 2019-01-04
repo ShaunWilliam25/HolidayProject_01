@@ -7,13 +7,16 @@ AAMyPlayerController::AAMyPlayerController()
 	
 }
 
-void AAMyPlayerController::MoveCamera()
+void AAMyPlayerController::ShootBullet()
 {
-	FVector newPosition;
-	
-	ACharacter* player = this->GetCharacter();
-	player->GetActorLocation();
-	
+	FActorSpawnParameters SpawnDetail;
+	SpawnDetail.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnDetail.Owner = GetCharacter();
+	FRotator rotation(0, 0, 0);
+	FVector position = GetCharacter()->GetActorLocation();
+	position.X += 20;
 
-	//PlayerCameraManager->GetViewTarget()->SetActorLocation(newPosition);
+	GetWorld()->SpawnActor<ABullet>(Bullet, position, rotation, SpawnDetail);
+	
 }
+

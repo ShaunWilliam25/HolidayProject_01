@@ -22,7 +22,7 @@ void AAMyCameraActor::AdjustCamera(AACharacter* player)
 	{
 		newPosition.Z = TopBorderLimit;
 	}
-	this->SetActorLocation(newPosition);
-
+	this->SetActorLocation(math.Lerp(this->GetActorLocation(), newPosition, CameraDelay));
+	
 	
 }

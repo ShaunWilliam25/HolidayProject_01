@@ -18,12 +18,15 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "CameraMovement")
 	void AdjustCamera(AACharacter* player);
 private:
-	UPROPERTY(EditAnywhere, Category="CameraLimit")
+	UPROPERTY(EditAnywhere, Category = "CameraMovement")
 	float LeftBorderLimit;
-	UPROPERTY(EditAnywhere, Category = "CameraLimit")
+	UPROPERTY(EditAnywhere, Category = "CameraMovement")
 	float TopBorderLimit;
-	UPROPERTY(EditAnywhere, Category = "CameraLimit")
+	UPROPERTY(EditAnywhere, Category = "CameraMovement")
 	float BottomBorderLimit;
-	UPROPERTY(EditAnywhere, Category = "CameraLimit")
+	UPROPERTY(EditAnywhere, Category = "CameraMovement")
 	float RightBorderLimit;
+	UPROPERTY(EditAnywhere, Category = "CameraMovement")
+	float CameraDelay;
+	FMath math;
 };
