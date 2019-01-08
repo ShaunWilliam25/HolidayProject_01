@@ -111,7 +111,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{83A4177B-B179-4381-9EB2-0B6CCBA867CC}</ProjectGuid>
+    <ProjectGuid>{234DDCA8-9C4E-4B5F-8B94-D617C559C597}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>HolidayProject_01</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>

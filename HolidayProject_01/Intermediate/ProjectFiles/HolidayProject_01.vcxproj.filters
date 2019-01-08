@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HolidayProject_01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F56E6A98-D393-433A-B953-F22D6E6B3255}</UniqueIdentifier>
+      <UniqueIdentifier>{3BB89FA4-F9C1-4C0A-ACE4-6C5235B8620F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HolidayProject_01.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4ABA9A51-08D9-48C1-9FC8-DFE58292C680}</UniqueIdentifier>
+      <UniqueIdentifier>{48B186EB-7305-4850-B3EF-C32D73C02EA1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HolidayProject_01">
-      <UniqueIdentifier>{3CB1783B-849B-40FD-9616-99D2112F1A6C}</UniqueIdentifier>
+      <UniqueIdentifier>{17C80AF3-7AAC-47CC-BD1C-4E51CFBFDE16}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HolidayProject_01\ACharacter.cpp">
       <Filter>Source\HolidayProject_01</Filter>
